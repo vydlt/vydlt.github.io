@@ -64,11 +64,16 @@
                     <li>
                         <div class="d-flex align-items-start">
                             <div class="flex-grow-1">
-                                <div>{{ item.name }}</div>
-                                <div class="small text-muted text-wrap">{{ item.provider }}</div>
-                            </div>
-                            <div class="ml-auto mt-auto no-break ml-3">
-                                <em>{{ item.date }}</em>
+                                <div class="d-flex">
+                                    <div>{{ item.name }}</div>
+                                    <div class="ml-auto no-break ml-3">
+                                        <em>{{ item.date }}</em>
+                                    </div>
+                                </div>
+
+                                <div class="small text-muted">
+                                    {{ item.provider }}
+                                </div>
                             </div>
                         </div>
                     </li>

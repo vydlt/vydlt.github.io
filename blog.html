@@ -8,6 +8,14 @@ body_attr: >-
 
 {% assign blogs_by_year = site.posts | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
+<div class="p-4 bg-white shadow-sm rounded-xl"
+    style="position: sticky; top: 20px; z-index: 10;">
+    <h5>About my blog</h5>
+        <p class="mb-0">
+            This is a space I’ve created purely for my interests. I will occasionally post about my life, work, and studies. I’m still very much on a journey to find my voice and would never consider myself a professional. Honestly, I’ve been writing for years but still struggle with self-doubt and hardly feel confident to share what I write. I want to continue writing as a way to reflect, bring clarity to my thoughts, better understand myself, and make sense of the world. Glad to share this special corner with you if you happen to stumble upon it!
+        </p>
+</div>
+
 <div class="row">
     <div class="col-12 col-lg-10">
         {% for year in blogs_by_year %}
