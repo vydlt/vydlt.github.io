@@ -79,6 +79,12 @@
                         </a>
                         {% endif %}
 
+                        {% if site.data.profile.goodreads %}
+                        <a class="px-1 no-break" target="_blank" href="https://www.goodreads.com{{ site.data.profile.goodreads }}">
+                            <i class="fab fa-goodreads"></i>
+                        </a>
+                        {% endif %}
+
                         {% if site.data.profile.orcid %}
                         <a class="px-1 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
                             <i class="fab fa-orcid"></i>
