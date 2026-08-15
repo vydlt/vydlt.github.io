@@ -8,33 +8,52 @@ body_attr: >-
 
 {% assign blogs_by_year = site.posts | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
-<div class="p-4 bg-white shadow-sm rounded-xl"
-    style="position: sticky; top: 20px; z-index: 10;">
-    <h5>About my blog</h5>
-        <p class="mb-0">
-            This is a space I’ve created purely for my interests. I will occasionally post about my life, work, and studies. I’m still very much on a journey to find my voice and would never consider myself a professional. Honestly, I’ve been writing for years but still struggle with self-doubt and hardly feel confident to share what I write. I want to continue writing as a way to reflect, bring clarity to my thoughts, better understand myself, and make sense of the world. Glad to share this special corner with you if you happen to stumble upon it!
-        </p>
-</div>
-
 <div class="row">
     <div class="col-12 col-lg-10">
-        {% for year in blogs_by_year %}
-        {% assign num_blogs = year.items | size %}
-        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
-        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-            {% for item in year.items %}
-                {% include widgets/blog_card.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
-            {% endfor %}
-        </div>
-        {% endfor %}
-    </div>
 
-    <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+        <!-- Fixed Introduction Card -->
+        <div class="p-4 bg-white shadow-sm rounded-xl"
+             style="position: sticky; top: 20px; z-index: 10;">
+            <h5>About My Blog</h5>
+            <p class="mb-0">
+                Welcome to my blog. Here I share my thoughts, experiences,
+                and insights on various topics, including sustainability,
+                technology, and professional development.
+            </p>
+        </div>
+
+        <!-- Blog Cards -->
+        <div>
             {% for year in blogs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            {% assign num_blogs = year.items | size %}
+
+            <h2 class="pt-4" id="year-{{ year.name }}">
+                {{ year.name }}
+            </h2>
+
+            <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+                {% for item in year.items %}
+                    {% include widgets/blog_card.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                {% endfor %}
+            </div>
+
             {% endfor %}
         </div>
+
     </div>
 
+    <!-- Year Navigation -->
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-year"
+             class="nav nav-pills flex-column sticky-top"
+             style="top: 80px">
+
+            {% for year in blogs_by_year %}
+            <a class="nav-link d-block" href="#year-{{ year.name }}">
+                {{ year.name }}
+            </a>
+            {% endfor %}
+
+        </div>
+    </div>
 </div>
