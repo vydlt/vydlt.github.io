@@ -49,7 +49,7 @@ portrait_caption: >-
 
 education:
 - name: International University, Vietnam National University - Ho Chi Minh City
-  # logo: /assets/images/badges/Logo-HCMIU.jpg
+  logo: # Logo is optional
   position: >- 
     Department of Industrial & Systems Engineering <br/>
     Bachelor of Engineering
@@ -57,15 +57,15 @@ education:
 
 experience:
 - name: Suntory PepsiCo Vietnam Beverage, Dong Nai Plant
-  # logo: /assets/images/badges/SPVB_logo.jpg
+  logo: # Logo is optional
   position: Graduate Engineering Talent - Production
   date: Jul. 2024 - present
 - name: Avery Dennison RBIS Vietnam
-  # logo: /assets/images/badges/ADVN.png
+  logo: # Logo is optional
   position: Demand Planning Analyst
   date: Feb. 2024 - Jul. 2024
 - name: Intel Products Vietnam
-  # logo: /assets/images/badges/intel_logo_2023.png
+  logo: # Logo is optional
   position: Workforce Planning Intern
   date: Aug. 2022 - Mar. 2023
 
