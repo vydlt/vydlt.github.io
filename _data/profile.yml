@@ -49,7 +49,7 @@ portrait_caption: >-
 
 education:
 - name: International University, Vietnam National University - Ho Chi Minh City
-  logo: /assets/images/badges/MIT_Social_circle.png
+  logo: /assets/images/badges/Logo-HCMIU.jpg
   position: >- 
     Department of Industrial & Systems Engineering <br/>
     Bachelor of Engineering
@@ -65,20 +65,39 @@ experience:
   position: Graduate Engineering Talent - Production
   date: Jul. 2024 - present
 - name: Avery Dennison RBIS Vietnam
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/ADVN.png
   position: Demand Planning Analyst
   date: Feb. 2024 - Jul. 2024
 - name: Intel Products Vietnam
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/intel_logo_2023.png
   position: Workforce Planning Intern
   date: Aug. 2022 - Mar. 2023
 
 awards:
 - name: MIAI Cluster Scholarship, Master 2 in Computer Science
   date: 2025
+  provider: ISIMA, Clermont Auvergne INP, Clermont-Ferrand, France
 - name: Master Scholarship, MEng in Logistics and Supply Chain Management 
   date: 2025
+  provider: International University - Vietnam National University HCMC
 - name: AmCham Scholarship
   date: 2023
+  provider: AmCham Vietnam
 - name: AmCham Women in Engineering Scholarship
-  date: 2023,2022
+  date: 2023
+  provider: AmCham Vietnam
+- name: AmCham Women in Engineering Scholarship
+  date: 2022
+  provider: AmCham Vietnam
+- name: Honda Award 
+  date: 2021
+  provider: Honda Vietnam
+- name: SBA Scholarship
+  date: 2021
+- name: TBS Golden & Silver Scholarship Award
+  date: 2021
+  provider: TBS Group
+- name: TBS Silver Scholarship Award
+  date: 2020
+  provider: TBS Group
+
