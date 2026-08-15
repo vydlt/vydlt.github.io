@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Vy Doan"
 
 positions:
-- name: Inner Wandering & Thought Engineering
+- name: Inner Wandering. Thought Engineering.
 # - name: Affiliation Name
 #   logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
@@ -26,15 +26,21 @@ short_bio: >-
     Hi, Vy here! Navigating my twenties, learning the ropes of life, and enjoying everyday work in the industry. I love connecting and growing with like-minded people.
   </p>
   <p>
-    I am currently in <i>FMCG</i> production. Previously, I also handled operations and supply chain, but for the <i>Semiconductors</i> and <i>Retail Solutions</i> spaces. Here are a few main areas that I have been working on:
+    I am working in FMCG production. Previously, I had worked in Semiconductors and Retail Solutions spaces. While my career is rooted in Operations and Supply Chain, my interests stretch across disciplines. I enjoy exploring Procurement, Business Analysis, Business Intelligence, and other domains that challenge me to learn, contribute, and grow. 
+  </p>
+  <p>
+    Here are a few main areas that I have been working on:
     <ul>
       <li>Lean Production: Workload Analysis, Process Improvement, People Structure Improvement</li>
       <li>Manufacturing Digital Transformation: Digital Reporting, Digital Supporting Systems</li>
-      <li>People Capability & Programs: Training Skills, Production Engagement Programs</li>
+      <li>People Capability & Programs: Training Programs, People Engagement Programs</li>
     </ul>
   </p>
   <p>
-    In my free time, I like to catch up on AI and technology news. I am into music and literature, and spend a lot of time doing physical therapy too.
+    I often follow AI and technology news to stay current. Outside of work, I enjoy reading from time to time and spend a lot of time doing physical therapy.
+  </p>
+  <p>
+    I am currently employed, but if you have any opportunities — feel free to reach out, I would love to connect and discuss.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -42,27 +48,37 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
+- name: International University, Vietnam National University - Ho Chi Minh City
   logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
-
-# experience:
+    Department of Industrial & Systems Engineering <br/>
+    Bachelor of Engineering
+  date: Sep. 2019 - Sep. 2023
 # - name: Peking University
 #   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
+#   position: B.S. in Computer Science
 #   date: Sep. 2019 - Jul. 2021
 
+experience:
+- name: Suntory PepsiCo Vietnam Beverage, Dong Nai Plant
+  logo: /assets/images/badges/SPVB_logo.jpg
+  position: Graduate Engineering Talent - Production
+  date: Jul. 2024 - present
+- name: Avery Dennison RBIS Vietnam
+  logo: /assets/images/badges/PKU_red.png
+  position: Demand Planning Analyst
+  date: Feb. 2024 - Jul. 2024
+- name: Intel Products Vietnam
+  logo: /assets/images/badges/PKU_red.png
+  position: Workforce Planning Intern
+  date: Aug. 2022 - Mar. 2023
+
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: MIAI Cluster Scholarship, Master 2 in Computer Science
+  date: 2025
+- name: Master Scholarship, MEng in Logistics and Supply Chain Management 
+  date: 2025
+- name: AmCham Scholarship
+  date: 2023
+- name: AmCham Women in Engineering Scholarship
+  date: 2023,2022
