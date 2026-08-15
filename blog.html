@@ -3,7 +3,7 @@ layout: default
 title : Blog
 navbar_title: Blog
 body_attr: >-
-  data-spy="scroll" data-target="#navbar-year" data-offset="100"
+data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
 {% assign blogs_by_year = site.posts | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
@@ -12,13 +12,33 @@ body_attr: >-
     <div class="col-12 col-lg-10">
 
         <!-- Fixed Introduction Card -->
-        <div class="p-4 bg-white shadow-sm rounded-xl"
-             style="position: sticky; top: 20px; z-index: 10;">
+        <div class="p-4 bg-white shadow-sm rounded-xl" style="position: sticky; top: 20px; z-index: 10;">
             <h5>About My Blog</h5>
             <p class="mb-0">
-                Welcome to my blog. Here I share my thoughts, experiences,
-                and insights on various topics, including sustainability,
-                technology, and professional development.
+                Hey! This is a space I’ve created purely for my interests where I will occasionally post about life,
+                work, studies, or anything.
+            </p>
+            <p class="mb-0">
+                I want to say that I’m still finding my voice and would never consider myself an "actual" writer.
+                Honestly, I’ve been writing for years, but I still struggle with self-doubt and hardly ever feel good
+                about what I write.
+            </p>
+            <p class="mb-0">
+                This space is my commitment to actually write and keep writing. I want to do that because writing is
+                hard, but it brings clarity to my thoughts. It helps me reflect, better understand myself, and make sense
+                of the world.
+            </p>
+            <p class="mb-0">
+                If I keep hesitating, I may never end up writing anything at all. And if I never write, I’ll never have
+                the chance to look back, revisit my thoughts, and see how they’ve evolved over time. So I’ve decided to
+                write anyway, even if it’s just a few bullet points or a handful of condensed keywords.
+            </p>
+            <p class="mb-0">
+                More than anything, I want this to be a space for reflection, learning, and capturing thoughts that I
+                may want to revisit later.
+            </p>
+            <p class="mb-0">
+                I’m glad to share this special corner with you - if you happen to stumble upon it!
             </p>
         </div>
 
@@ -33,7 +53,8 @@ body_attr: >-
 
             <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
                 {% for item in year.items %}
-                    {% include widgets/blog_card.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                {% include widgets/blog_card.html item=item hide_bottom_border=forloop.last first=forloop.first
+                last=forloop.last %}
                 {% endfor %}
             </div>
 
@@ -44,9 +65,7 @@ body_attr: >-
 
     <!-- Year Navigation -->
     <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year"
-             class="nav nav-pills flex-column sticky-top"
-             style="top: 80px">
+        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
 
             {% for year in blogs_by_year %}
             <a class="nav-link d-block" href="#year-{{ year.name }}">
