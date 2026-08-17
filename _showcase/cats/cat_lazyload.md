@@ -4,18 +4,30 @@ width: 3
 date: 2019-01-12 00:01:00 +0800
 group: Cats
 ---
-<div>
-    <!-- <img data-src="{{ '/assets/images/photos/album/graduation.jpg' | relative_url }}"
-     class="lazy w-100 rounded-xl"
-     src="{{ '/assets/images/empty_300x200.png' | relative_url }}"> -->
-    {% for image in site.static_files %}
+
+<style>
+.image-gallery {
+  columns: 4 200px;
+  column-gap: 16px;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+  break-inside: avoid;
+}
+</style>
+
+<div class="image-gallery">
+  {% for image in site.static_files %}
     {% if image.path contains '/assets/images/photos/album/' %}
-        <img
+      <img
         data-src="{{ image.path | relative_url }}"
-        class="lazy w-100 rounded-xl"
+        class="lazy rounded-xl"
         src="{{ '/assets/images/empty_300x200.png' | relative_url }}"
         alt="">
     {% endif %}
-    {% endfor %}
+  {% endfor %}
 </div>
-
