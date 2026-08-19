@@ -1,7 +1,7 @@
 ---
 show: true
-width: 3
-date: 2019-01-12 00:01:00 +0800
+width: 6
+date: 2023-01-12 00:01:00 +0800
 group: little archives
 ---
 <div>
