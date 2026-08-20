@@ -1,6 +1,25 @@
 ---
 layout: default
-title : Vy Doan
+title : Homepage
 navbar_title: Home
 ---
 {% include widgets/profile_card.html %}
+
+{% assign blogs_by_year = site.posts | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+<div>
+    {% for year in blogs_by_year %}
+    {% assign num_blogs = year.items | size %}
+
+    <h2 class="pt-4" id="year-{{ year.name }}">
+        {{ year.name }}
+    </h2>
+
+    <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+        {% for item in year.items %}
+                {% include widgets/blog_card.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+        {% endfor %}
+    </div>
+
+    {% endfor %}
+</div>
