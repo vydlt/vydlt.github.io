@@ -15,7 +15,7 @@ To begin with, I don't come from a computer science background. But ever since I
 
 I used to spend some time learning about computer science, reading papers, and trying to understand models and algorithms. I did that on and off for a few months, but I've never really studied any of it in depth. Most of what I know is just bits and pieces I've picked up by exploring on my own and scratching the surface. Despite being far from an expert in this field, I've always had a special fondness for it.
 
-I enjoy working on small projects, and building a personal website has always appealed to me. It's not really about putting myself on display. It's a space where I learn to express myself, document things I want to revisit later, and figure out who I am without the pressure of presenting myself to the world. It's quieter, more personal here. And it's a challenging but fun project to work on.
+I enjoy working on small projects, and building a personal website has always appealed to me. It's not really about putting myself on display. It's a space where I learn to express myself, document things I want to revisit later, and figure out who I am without the pressure of presenting myself to the world. It's a challenging but fun project to work on. And I like that it's quieter and more personal here.
 
 These days, it's easier than ever to build a website with user-friendly, low-code or no-code platforms like Wix, WordPress, Squarespace, and Notion. Still, there's something special about building your own site and being able to shape it through code.
 
