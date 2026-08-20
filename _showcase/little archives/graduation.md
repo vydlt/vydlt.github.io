@@ -1,6 +1,6 @@
 ---
 show: true
-width: 3
+width: 4
 date: 2023-12-16 00:01:00 +0800
 group: little archives
 ---
