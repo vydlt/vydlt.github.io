@@ -11,7 +11,9 @@ Hey, welcome to my silly corner!
 
 I feel that it's important for me to understand why this site exists and why I felt the need to create it. This post is less about introducing the site to others and more about explaining it to myself.
 
-To begin with, I don't come from a computer science background. But ever since I discovered the world of tech, I've been fascinated by it. I wanted to understand software engineering, how people build apps and systems, and I wanted to learn about data science and the algorithms behind it all. I used to spend some time learning about computer science, reading papers, exploring models, and trying to understand algorithms. I did that on and off for a few months, but I've never really studied any of it in depth. Most of what I know is just bits and pieces I've picked up by exploring on my own and scratching the surface. I'm far from an expert in this field, but I've always had a special fondness for it.
+To begin with, I don't come from a computer science background. But ever since I discovered the world of tech, I've been fascinated by it. I wanted to understand software engineering, how people build apps and systems, and I wanted to learn about data science and the algorithms behind it all. 
+
+I used to spend some time learning about computer science, reading papers, and trying to understand models and algorithms. I did that on and off for a few months, but I've never really studied any of it in depth. Most of what I know is just bits and pieces I've picked up by exploring on my own and scratching the surface. Despite being far from an expert in this field, I've always had a special fondness for it.
 
 I enjoy working on small projects, and building a personal website has always appealed to me. It's not really about putting myself on display. It's a space where I learn to express myself, document things I want to revisit later, and figure out who I am without the pressure of presenting myself to the world. It's quieter, more personal here. And it's a challenging but fun project to work on.
 
