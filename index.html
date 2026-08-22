@@ -10,7 +10,6 @@ navbar_title: Home
 <div>
     <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
         {% for item in courses %}
-            {% include widgets/blog_card.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
         {% endfor %}
     </div>
 </div>
