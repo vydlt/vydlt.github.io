@@ -20,11 +20,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
 </head>
 <body class="bg-light d-flex flex-column min-vh-100" {{ page.body_attr }}>
-    {% include navbar.html active_page="Blog" %}
+    {% include navbar.html active_page="Home" %}
 
     <main class="flex-grow-1">
-        <div class="blog-layout-wrapper">
-            <div class="blog-main">
+        <div class="course-layout-wrapper">
+            <div class="course-main">
                 <article class="bg-white rounded-xl p-4 mb-4" style="border: 1px solid #f0f0f0;">
                     <header class="mb-4">
                         <h1 class="display-4 mb-3">{{ page.title }}</h1>
@@ -41,15 +41,15 @@
                         </div>
                     </header>
 
-                    <div class="blog-content">
+                    <div class="course-content">
                         {{ content }}
                     </div>
                 </article>
             </div>
-            <div class="blog-toc-sidebar">
-                <nav id="blog-toc" class="blog-toc-nav">
-                    <div class="blog-toc-title">Table of Contents</div>
-                    <ul class="blog-toc-list"></ul>
+            <div class="course-toc-sidebar">
+                <nav id="course-toc" class="course-toc-nav">
+                    <div class="course-toc-title">Table of Contents</div>
+                    <ul class="course-toc-list"></ul>
                 </nav>
             </div>
         </div>
