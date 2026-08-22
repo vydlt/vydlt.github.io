@@ -5,11 +5,9 @@ navbar_title: Home
 ---
 {% include widgets/profile_card.html %}
 
-{% assign courses = site.courses | sort: "date" | reverse %}
-
 <div>
     <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-        {% for item in courses %}
+        {% for item in site.courses %}
         {% endfor %}
     </div>
 </div>
