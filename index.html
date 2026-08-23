@@ -6,9 +6,9 @@ navbar_title: Home
 {% include widgets/profile_card.html %}
 
 {% for course in site.courses %}
-    <div class="py-2">
-        <strong>{{ course.title }}</strong>
-        <br>
-        URL: {{ course.url }}
-    </div>
+    <a href="{{ course.url | relative_url }}"
+       class="d-block px-4 py-3 text-dark text-decoration-none"
+       style="border-top: 1px solid #eee;">
+        {{ course.title }}
+    </a>
 {% endfor %}

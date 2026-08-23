@@ -5,6 +5,7 @@ date: 2026-07-20
 tags:
   - Jekyll
   - Linkedin
+permalink: /courses/jekyll/
 ---
 
 Jekyll
