@@ -1,5 +1,5 @@
 ---
-layout: course_list
+layout: course_post
 title: 'Photography'
 date: 2026-07-20
 tags:
