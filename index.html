@@ -10,10 +10,14 @@ navbar_title: Home
 <div>
     <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
 
-        {% for course in courses %}
+        <div class="px-4 pt-4 pb-3">
+            <h2 class="mb-0">Coursemark</h2>
+        </div>
+
+        {% for course in site.courses %}
             <a href="{{ course.url | relative_url }}"
                class="d-block px-4 py-3 text-dark text-decoration-none"
-               style="border-bottom: 1px solid #eee;">
+               style="border-top: 1px solid #eee;">
                 {{ course.title }}
             </a>
         {% endfor %}
