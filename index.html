@@ -6,9 +6,6 @@ navbar_title: Home
 {% include widgets/profile_card.html %}
 
 {% for course in site.courses %}
-    <div class="py-2">
-        <strong>{{ course.title }}</strong><br>
-        URL: {{ course.url }}<br>
-        Path: {{ course.path }}
-    </div>
+    {{ course.title }}
+    URL: {{ course.url }}
 {% endfor %}
