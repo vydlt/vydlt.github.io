@@ -5,22 +5,10 @@ navbar_title: Home
 ---
 {% include widgets/profile_card.html %}
 
-{% assign courses = site.courses | sort: "date" | reverse %}
-
-<div>
-    <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-
-        <div class="px-4 pt-4 pb-3">
-            <h3 class="mb-0">Coursemark</h3>
-        </div>
-
-        {% for course in site.courses %}
-            <a href="{{ course.url | relative_url }}"
-               class="d-block px-4 py-3 text-dark text-decoration-none"
-               style="border-top: 1px solid #eee;">
-                {{ course.title }}
-            </a>
-        {% endfor %}
-
+{% for course in site.courses %}
+    <div class="py-2">
+        <strong>{{ course.title }}</strong>
+        <br>
+        URL: {{ course.url }}
     </div>
-</div>
+{% endfor %}
