@@ -19,6 +19,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
 plugins:
   - jekyll-email-protect
+assets:
+  g_strict: false # Tells the compiler not to break or halt on missing files
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

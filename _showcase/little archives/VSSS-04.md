@@ -5,7 +5,7 @@ date: 2022-08-05 00:01:00 +0800
 group: little archives
 ---
 <div>
-  <img data-src="{{ 'assets/images/photos/album/VSSS-04.jpg' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" data-toggle="tooltip" data-placement="top" title="">
+  <img src="{{ 'assets/images/photos/album/VSSS-04.jpg' | relative_url }}" class="lazy w-100 rounded-xl" title="">
   <div class="card-body">
     <p class="card-text">
       VSSS 2022
