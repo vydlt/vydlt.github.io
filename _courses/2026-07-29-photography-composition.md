@@ -7,5 +7,5 @@ tags:
   - Linkedin
 ---
 
-![](assets/images/photos/courses/composition.png)
+![](certs/composition.png)
 
