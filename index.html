@@ -5,17 +5,16 @@ navbar_title: Home
 ---
 {% include widgets/profile_card.html %}
 
-<div>
+<div class="mt-4">
     <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
 
         <div class="px-4 pt-4 pb-3">
-            <h2 class="mb-0">Coursemark</h2>
+            <h4 class="mb-0">Coursemark</h4>
         </div>
 
         {% for course in site.courses %}
             <a href="{{ course.url | relative_url }}"
-               class="d-block px-4 py-3 text-dark text-decoration-none"
-               style="border-top: 1px solid #eee;">
+               class="d-block px-4 py-1 text-dark text-decoration-none">
                 {{ course.title }}
             </a>
         {% endfor %}

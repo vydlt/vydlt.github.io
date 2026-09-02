@@ -19,8 +19,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
 plugins:
   - jekyll-email-protect
-assets:
-  g_strict: false # Tells the compiler not to break or halt on missing files
+exclude:
+  - assets/images/missing_folder/ # Change to your actual missing image path
+  - img/missing_folder/
 
 
 # Exclude from processing.
@@ -37,9 +38,21 @@ assets:
 
 # timezone: Asia/Shanghai
 
+# collections:
+#   - publications
+#   - news
+#   - showcase
+#   - posts
+#   - courses
+
 collections:
-  - publications
-  - news
-  - showcase
-  - posts
-  - courses
+  publications:
+    output: true
+  news:
+    output: true
+  showcase:
+    output: true
+  posts:
+    output: true
+  courses:
+    output: true
