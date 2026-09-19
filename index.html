@@ -1,23 +1,7 @@
 ---
 layout: default
-title : Homepage
+title : Home
 navbar_title: Home
 ---
+
 {% include widgets/profile_card.html %}
-
-<div class="mt-4">
-    <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-
-        <div class="px-4 pt-4 pb-2">
-            <h4 class="mb-0">Coursemark</h4>
-        </div>
-
-        {% for course in site.courses %}
-            <a href="{{ course.url | relative_url }}"
-               class="d-block px-4 py-2 text-dark text-decoration-none">
-                {{ course.title }}
-            </a>
-        {% endfor %}
-
-    </div>
-</div>

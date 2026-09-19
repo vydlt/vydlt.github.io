@@ -9,5 +9,7 @@ pages:
 #   url: /publications
 - name: Blog
   url: /blog
+- name: List 100
+  url: /list100
 - name: Showcase
   url: /showcase
