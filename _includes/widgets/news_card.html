@@ -1,6 +1,6 @@
 {% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" -%}
 
-<div class="my-3 bg-white shadow-sm rounded-xl">
+<!-- <div class="my-3 bg-white shadow-sm rounded-xl">
     <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
     <div class="px-3 pb-1 small">
         {% for year in news_by_year %}
@@ -16,6 +16,38 @@
                 {% endfor %}
             </div>
         </div>
+        {% endfor %}
+    </div>
+</div> -->
+
+<div>
+    <p><i class="fas fa-rss"></i> <b>NEWS</b></p>
+
+    <div class="pb-1">
+        {% for year in news_by_year %}
+            {% for item in year.items %}
+            <div class="my-2 d-flex">
+
+                {% if item.image %}
+                <div class="mr-3">
+                    <img src="{{ item.image | relative_url }}"
+                         alt="{{ item.title }}"
+                         style="width: 250px; height: 300px; object-fit: cover; object-position: 50% 80%;">
+                </div>
+                {% endif %}
+
+                <div class="flex-grow-1">
+                    <div>{{ item.title }}</div>
+
+                    {% if item.content %}
+                    <div>
+                        {{ item.content }}
+                    </div>
+                    {% endif %}
+                </div>
+
+            </div>
+            {% endfor %}
         {% endfor %}
     </div>
 </div>

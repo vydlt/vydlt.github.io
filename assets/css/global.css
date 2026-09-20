@@ -29,6 +29,11 @@ h6,
     font-weight: 700;
 }
 
+a:hover { 
+    color: hotpink; 
+    text-decoration: none;
+}
+
 ul,
 ol {
     padding-left: 5;
@@ -166,7 +171,7 @@ div.lazy {
 }
 
 .blog-title:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .cool-avt {
@@ -197,7 +202,7 @@ div.lazy {
     overflow: hidden;
     word-break: break-all;
 
-    background-image: url("../../assets/images/photos/anh_bg_removed.png");
+    background-image: url("../../assets/images/profile_img/anh_bg_removed.png");
 
     background-repeat: no-repeat;
     background-position: 50% 25%;
@@ -223,20 +228,22 @@ div.lazy {
 
 .text-portrait p {
     width: 100%;
+    height: auto;
     /* max-width: 350px;
     max-height: 350px; */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-size: 8px;
     line-height: 8px;
     white-space: pre-wrap;
     overflow: hidden;
     word-break: break-all;
-    background-image: linear-gradient(to bottom, rgba(112, 252, 126, 0.65), rgba(3, 71, 10, 0.65)), url("../../assets/images/photos/anh.JPEG");
+    /* background-image: linear-gradient(to bottom, rgba(112, 252, 126, 0.65), rgba(3, 71, 10, 0.65)), url("../../assets/images/profile_img/anh.JPEG"); */
+    background-image: url("../../assets/images/profile_img/anh.JPEG");
     background-repeat: no-repeat;
-    background-position: auto auto;
-    background-size: cover;
+    background-position: 50% 25%;
+    background-size: contain;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

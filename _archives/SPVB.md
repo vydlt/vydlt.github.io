@@ -1,6 +1,6 @@
 ---
 title: at SPVB
-group: SPVB
+group: at SPVB
 date: 2026-08-05
 show: true
 
