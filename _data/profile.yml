@@ -25,6 +25,9 @@ hellotalk: https://hellotalk.com/u/doanvy
 short_bio_text_justify: false
 short_bio: >-
   <p>
+    <b>ABOUT ME</b>
+  </p>
+  <p>
     Hi, I’m Vy — a twenty-something figuring out the ropes of life, finding joy in everyday work, and learning what it means to live well. I love connecting with like-minded people and growing together.
     <a href="mailto:{{ site.data.profile.email | encode_email }}">
     <i class="fas fa-envelope"></i>

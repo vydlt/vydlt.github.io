@@ -6,9 +6,4 @@ group: VSSS09
 ---
 <div>
   <img src="{{ 'assets/images/photos/album/VSSS-01.jpg' | relative_url }}" class="lazy w-100 rounded-xl" title="">
-  <div class="card-body">
-    <p class="card-text">
-      VSSS 2022
-    </p>
-  </div>
 </div>

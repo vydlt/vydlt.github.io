@@ -41,7 +41,7 @@ exclude:
 # collections:
 #   - publications
 #   - news
-#   - showcase
+#   - archives
 #   - posts
 #   - courses
 
@@ -50,7 +50,7 @@ collections:
     output: true
   news:
     output: true
-  showcase:
+  archives:
     output: true
   posts:
     output: true

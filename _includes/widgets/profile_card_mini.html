@@ -36,9 +36,10 @@
 
                 <div class="row small">
                     <div class="col text-center">
-                        <a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}">
-                            {{ site.data.profile.email | replace: "@", "(at)" }}
-                        </a>
+                        <a href="mailto:{{ site.data.profile.email | encode_email }}">
+                        <i class="fas fa-envelope"></i>
+                        <span>Drop me an email!</span>
+                        </a>  
                     </div>
                 </div>
 
@@ -61,7 +62,7 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.wechat_qrcode %}
+                        <!-- {% if site.data.profile.wechat_qrcode %}
                         <a class="px-1 no-break" data-toggle="modal" data-target="#modal-wechat">
                             <i class="fab fa-weixin"></i>
                         </a>
@@ -89,7 +90,7 @@
                         <a class="px-1 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
                             <i class="fab fa-orcid"></i>
                         </a>
-                        {% endif %}
+                        {% endif %} -->
                     </div>
                 </div>
             </div>
