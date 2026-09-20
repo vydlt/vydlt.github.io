@@ -7,7 +7,7 @@ show: true
 images:
   - src: assets/images/VSSS09/VSSS-01.jpg
   - src: assets/images/VSSS09/VSSS-02.jpg
-  - src: assets/images/VSSS09/VSSS-03.jpg
+  - src: assets/images/VSSS09/VSSS-03.JPG
   - src: assets/images/VSSS09/VSSS-04.jpg
   - src: assets/images/VSSS09/VSSS-05.jpg
   
