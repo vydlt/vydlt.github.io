@@ -9,11 +9,11 @@ tags:
 
 Hey, welcome to my silly corner!
 
-I always think it's important to understand why this site exists and why I felt the need to create it. So this post is not about introducing this site to others but explaining it to myself.
+I always think it's important to understand why this site exists and why I felt the need to create it. So this post is less about introducing this site to others but more about explaining it to myself.
 
 To begin with, I don't come from a computer science background. But ever since I discovered the world of tech, I've been fascinated by it. I wanted to understand how people build apps and systems, the science and algorithms behind it all. 
 
-So I used to spend some time reading papers, and trying to understand models and algorithms. I did that on and off for a few months, but I've never really studied any of it in depth. Most of what I know is just bits and pieces I've picked up by exploring on my own and scratching the surface. Despite being far from an expert in this field, I've always had a special fondness for it. 
+I used to spend some time reading papers, and trying to understand models and algorithms. I did that on and off for a few months, but I've never really studied any of it in depth. Most of what I know is just bits and pieces I've picked up by exploring on my own and scratching the surface. Despite being far from an expert in this field, I've always had a special fondness for it. 
 
 I enjoy working on little projects, and building a personal website has always been something I’ve wanted to do. This project isn’t about putting myself on display. It’s about creating a little space of my own — somewhere I can learn to express myself, keep things I’m interested in or care about, and figure out who I am without the pressure of having to present myself to the world.
 
@@ -31,4 +31,4 @@ So, a big shout-out to the author and contributors behind this repository for cr
 
 Funny how building this site makes me feel a little cool about myself. Hopefully, I’ll keep learning through it and be able to maintain it for years to come.
 
-That’s all. Thanks for stopping by.
+That’s all. Thanks for stopping by!
