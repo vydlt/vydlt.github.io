@@ -23,7 +23,7 @@ images:
     text: Honda Award 2021 <a href="https://www.24h.com.vn/giao-duc-du-hoc/honda-viet-nam-vinh-danh-nhung-sinh-vien-xuat-sac-nhan-hoc-bong-honda-honda-award-2021-c216a1343513.html" target="_blank">Featured</a>
   - src: assets/images/back in college/IAC-bonding.jpg
     text: IAC - Team bonding
-  - src: assets/images/back in college/IAC.jpg
+  - src: assets/images/back in college/IAC.JPG
     text: IAC - Coreteam
   - src: assets/images/back in college/IAC-Talkshow.jpg
     text: IAC - Talkshow event
