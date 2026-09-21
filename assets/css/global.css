@@ -5,13 +5,17 @@ body {
     font-weight: 400;
     padding-top: 5.0rem;
     width: 100%;
-    max-width: 900px;
+    /* max-width: 900px; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
     /* background-color: #0e1e34;
     color: #e9eaea; */
+}
+
+body.default-layout {
+    max-width: 900px;
 }
 
 h1,
