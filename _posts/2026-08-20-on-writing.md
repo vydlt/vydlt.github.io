@@ -19,14 +19,14 @@ Although writing doesn't come easily to me, it brings clarity to my thoughts. It
 
 I still hesitate a lot and often end up not writing anything at all. But if I never write, I’ll never have the chance to return to my thoughts and see how they've evolved. 
 
-Therefore, I’ve decided to write anyway, even if it’s just a few bullet points or a handful of condensed keywords. 
+So I’ve decided to write anyway, even if it’s just a few bullet points or a handful of condensed keywords. 
 
 More than anything, I want this to be a space for reflection, learning, and capturing thoughts that I might revisit later.
 
-Writing is also a good excuse to practice my English.
+Also, writing is a good excuse for me to practice English.
 
-I always think being able to write something that feels true to yourself, something you’re genuinely happy with, is super, super cool. And it's something I'm still learning.
+I think being able to write something that feels true to yourself, something you’re genuinely happy with, is seriously cool. And it's something I'm still learning.
 
 Hopefully, I'll eventually get the hang of it. For now, I'm curious to see where this leads.
 
-That's all. Thanks for coming by!
+That's all. Thanks for stopping by!

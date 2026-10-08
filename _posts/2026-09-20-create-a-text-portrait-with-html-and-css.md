@@ -8,11 +8,11 @@ tag:
 ---
 
 <p>
-    This is a little fun project I came across and thought would be fun to try. There are already plenty of source codes and videos out there teaching you how to create a text portrait with HTML and CSS, so you can easily find them by searching for the right keywords.
+    I stumbled across this simple project while looking for some easy digital art projects to play around with. It’s important that it’s simple because I’m a beginner and an amateur. Anyways, there are already plenty of source codes and videos out there teaching you how to create a text portrait with HTML and CSS, so you can easily find them by searching for the right keywords.
 </p>
 
 <p>
-    I haven’t felt like finishing this one yet, so I’m just putting it here for now. I’ll spend some more time playing around with it and come back to update it when I do.
+    I haven’t felt like finishing this one yet, so I’m just putting it here for now. I’ll spend some more time playing around with it and come back for an update when I do.
 
 </p>
 
