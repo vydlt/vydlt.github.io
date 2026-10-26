@@ -45,6 +45,24 @@
                         {{ content }}
                     </div>
                 </article>
+
+                <div class="comments-section mt-5">
+                    <h3>Comments</h3>
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                        this.page.url = "https://vydlt.github.io/list100";
+                        this.page.identifier = "list100";
+                        };
+                        (function () {
+                        var d = document, s = d.createElement("script");
+                        s.src = "https://vy-doan.disqus.com/embed.js";
+                        s.setAttribute("data-timestamp", +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </div>
+
             </div>
             <div class="blog-toc-sidebar">
                 <nav id="blog-toc" class="blog-toc-nav">
@@ -53,27 +71,7 @@
                 </nav>
             </div>
         </div>
-        
-        <div class="comments-section mt-5">
-        <div class="blog-layout-wrapper">
-            <div class="blog-main">
-                <h3>Comments</h3>
-                <div id="disqus_thread"></div>
-                <script>
-                    var disqus_config = function () {
-                    this.page.url = "https://vydlt.github.io/list100";
-                    this.page.identifier = "list100";
-                    };
-                    (function () {
-                    var d = document, s = d.createElement("script");
-                    s.src = "https://vy-doan.disqus.com/embed.js";
-                    s.setAttribute("data-timestamp", +new Date());
-                    (d.head || d.body).appendChild(s);
-                    })();
-                </script>
-            </div>
-        </div>
-        </div>
+
     </main>
 
     
