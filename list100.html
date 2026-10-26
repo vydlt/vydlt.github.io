@@ -166,7 +166,7 @@ navbar_title: List 100
 
 </p>
 
-<div class="comments-section mt-5">
+<!-- <div class="comments-section mt-5">
   <h3>Comments</h3>
 
     <script src="https://giscus.app/client.js"
@@ -183,5 +183,22 @@ navbar_title: List 100
         data-lang="en"
         crossorigin="anonymous"
         async>
+    </script>
+</div> -->
+
+<div class="comments-section mt-5">
+    <h3>Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+        this.page.url = "https://vydlt.github.io/list100";
+        this.page.identifier = "list100";
+        };
+        (function () {
+        var d = document, s = d.createElement("script");
+        s.src = "https://vy-doan.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
     </script>
 </div>
