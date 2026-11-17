@@ -11,7 +11,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     background: #14171a;
-    color: #e8ecef;
+    color: #8a949c;
     /* background-color: #0e1e34;
     color: #e9eaea; */
 }
@@ -50,10 +50,9 @@ h6,
     font-weight: 700;
 }
 
-a:hover { 
-    color: hotpink; 
-    text-decoration: none;
-}
+h1, h2, h3, h4, h5, h6, strong, b { color: #e8ecef; }
+a { color: #9ecbff; }
+a:hover { color: #ffffff; }
 
 ul,
 ol {
