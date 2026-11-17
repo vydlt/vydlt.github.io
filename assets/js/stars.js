@@ -1,12 +1,21 @@
 (function () {
   // Colors and canvas placement (so no separate CSS is needed)
   var style = document.createElement('style');
-  style.textContent =
+    style.textContent =
     'html{background:#14171a !important;}' +
-    'body{background:transparent !important;color:#e8ecef;}' +
-    'body a{color:#9ecbff;}' +
+    'body{background:transparent !important;color:#8a949c !important;line-height:1.7;}' +
+    // body text font, applied to every element except icons and code
+    ':where(body, body *:not(.fa):not(.fas):not(.far):not(.fab):not(.bi):not([class*="icon"]):not(code):not(pre))' +
+        '{font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif !important;}' +
+    // headings font and color
+    'body h1,body h2,body h3,body h4,body h5,body h6,' +
+    'body h1 *,body h2 *,body h3 *,body h4 *,body h5 *,body h6 *' +
+        '{font-family:"Space Grotesk","Inter",system-ui,sans-serif !important;letter-spacing:-0.01em;}' +
+    'h1,h2,h3,h4,h5,h6,strong,b{color:#e8ecef !important;}' +
+    'a{color:#9ecbff !important;}' +
+    'a:hover{color:#ffffff !important;}' +
     '#stars{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;}';
-  document.head.appendChild(style);
+    document.head.appendChild(style);
 
   var canvas = document.getElementById('stars');
   if (!canvas) {
