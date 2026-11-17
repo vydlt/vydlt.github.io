@@ -2,7 +2,6 @@
   var canvas = document.getElementById('stars');
   if (!canvas) return;
   var ctx = canvas.getContext('2d');
-  var btn = document.getElementById('toggle'); // optional
   var stars = [];
   var motion = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -42,4 +41,7 @@
     requestAnimationFrame(draw);
   }
 
-  function label() { if (btn) btn.textContent = motion ? 'Motion on' : 'Motion off'; }
+  window.addEventListener('resize', build);
+  build();
+  requestAnimationFrame(draw);
+})();
