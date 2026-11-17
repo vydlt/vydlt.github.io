@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 body {
-    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    /* font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 400;
     padding-top: 5.0rem;
     width: 100%;
@@ -50,9 +51,9 @@ h6,
     font-weight: 700;
 }
 
-h1, h2, h3, h4, h5, h6, strong, b { color: #e8ecef; }
+/* h1, h2, h3, h4, h5, h6, strong, b { color: #e8ecef; }
 a { color: #9ecbff; }
-a:hover { color: #ffffff; }
+a:hover { color: #ffffff; } */
 
 ul,
 ol {
