@@ -1,6 +1,20 @@
 (function () {
+  // Colors and canvas placement (so no separate CSS is needed)
+  var style = document.createElement('style');
+  style.textContent =
+    'html{background:#14171a !important;}' +
+    'body{background:transparent !important;color:#e8ecef;}' +
+    'body a{color:#9ecbff;}' +
+    '#stars{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;}';
+  document.head.appendChild(style);
+
   var canvas = document.getElementById('stars');
-  if (!canvas) return;
+  if (!canvas) {
+    canvas = document.createElement('canvas');
+    canvas.id = 'stars';
+    document.body.insertBefore(canvas, document.body.firstChild);
+  }
+
   var ctx = canvas.getContext('2d');
   var stars = [];
   var motion = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
